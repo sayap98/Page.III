@@ -74,12 +74,12 @@ main {
   font-family: "Oswald";
   font-weight: 900;
   width: 50%;
-  min-width: 500px;
+  min-width: 400px;
   background: -webkit-linear-gradient(to right, #0a684f, #d6e2dc);
 }
 .hero-info p {
   font-size: 18px;
-  width: 80%;
+  width: 100%;
   color: rgb(255, 255, 255);
   font-family: "Montserrat";
 }
@@ -157,7 +157,7 @@ main {
   justify-content: center;
   max-width: 1200px;
   margin-top: 0px;
-  padding: 70px 0px;
+  padding: 40px 0px;
   align-items: center;
   box-sizing: border-box;
 }
@@ -171,21 +171,25 @@ main {
   color: whitesmoke;
   font-size: 20px;
   align-items: end;
+  justify-content: center;
+  gap: 10px;
 }
 .foot-info p {
   color: grey;
   font-style: oblique;
   font-weight: 700;
+  display: flex;
 }
 .foot-info img {
   width: 30px;
   height: 30px;
 }
 .foot-list {
-  display: flex;
   align-items: center;
-  justify-content: center;
   gap: 15px;
+  min-width: 400px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media (max-width: 1200px) {
